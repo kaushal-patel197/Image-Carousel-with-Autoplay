@@ -1,6 +1,8 @@
 let currentImageIndex = 0;
 let autoplayTimerId;
 
+// This is committed to a branch
+
 const AUTOPLAY_INTERVAL_MS = 3000;
 const imagesList = document.querySelectorAll(".image");
 const previousEl = document.querySelector("#previous");
